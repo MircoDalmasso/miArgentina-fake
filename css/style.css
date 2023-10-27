@@ -1,0 +1,55 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 75px;
+  background-color: #37BBED;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+header #logo-header {
+  height: 35px;
+  padding-left: 10px;
+}
+
+h1 {
+  color: #333;
+  margin: 20px 20px 0 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.botonera {
+  display: flex;
+}
+.botonera img {
+  width: 70px;
+  margin: 15px 0;
+  border: 0;
+}
+.botonera a {
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.primera-columna {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-md-4 {
+  height: 200px;
+  width: 200px;
+  border: solid 1px #ddd;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
